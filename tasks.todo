@@ -1,0 +1,43 @@
+☐ build a simple Chatbot flow builder
+☐ make the code extensible to easily add new features.
+
+############ Note ############
+☐ Use https://reactflow.dev/ for the flow builder.
+☐ You are free to use any other library on top of React Flow.
+☐ You can use either of JavaScript or TypeScript for this Task
+☐ Add comments to explain your code
+
+
+############ Features ############ 
+☐ 1. Text Node
+    a. Our flow builder currently supports only one type of message (i.e Text Message).
+    b. There can be multiple Text Nodes in one flow.
+    c. Nodes are added to the flow by dragging and dropping a Node from the Nodes Panel.
+
+☐ 2. Nodes Panel
+    a. This panel houses all kind of Nodes that our Flow Builder supports.
+    b. Right now there is only Message Node, but we’d be adding more types
+    of Nodes in the future so make this section extensible
+☐ 3. Edge
+    a. Connects two Nodes together
+☐ 4. Source Handle
+    a. Source of a connecting edge
+    b. Can only have one edge originating from a source handle
+☐ 5. Target Handle
+    a. Target of a connecting edge
+    b. Can have more than one edge connecting to a target handle
+☐ 6. Settings Panel
+    1. Settings Panel will replace the Nodes Panel when a Node is selected
+    2. It has a text field to edit text of the selected Text Node
+☐ 7. Save Button
+    a. Button to save the flow
+    b. Save button press will show an error if there are more than one Nodes and more than one Node has empty target handles
+    
+############ Submission ############
+☐ 1. Deploy a working version on a free hosting service like Heroku, Vercel,
+☐ etc
+☐ 2. Host the code repo on Github and add hosting link from the above step
+☐ to the readme file
+☐ 3. Share the repo link with your resume to careers@bitespeed.co with
+☐ subject “BiteSpeed Frontend Task”
+☐ 4. Please fill this form to submit the task - 
