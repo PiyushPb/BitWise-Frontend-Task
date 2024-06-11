@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { AiOutlineMessage } from "react-icons/ai";
+import { NodeContext } from "../../Context/NodeContext";
 
 const Sidebar = () => {
+  const { setFlowHaveChanges } = useContext(NodeContext);
+
   const onDragStart = (event, nodeType) => {
+    setFlowHaveChanges(true);
     event.dataTransfer.setData("application/reactflow", nodeType);
     event.dataTransfer.effectAllowed = "move";
   };
   return (
-    <aside className="border-t-2 md:border-l-2 md:border-t-0 px-5 py-5 ">
+    <aside className="max-w-[350px] w-full px-5 py-5 ">
       <div className="description">
         You can drag these nodes to the pane on the right.
       </div>

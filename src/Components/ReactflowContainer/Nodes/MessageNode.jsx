@@ -2,8 +2,8 @@ import React from "react";
 import { Handle, Position } from "reactflow";
 import { AiOutlineMessage } from "react-icons/ai";
 
-const MessageNode = ({ data }) => {
-  //   console.log(data);
+const MessageNode = ({ id, data }) => {
+  // console.log(id, data);
   return (
     <div className="min-w-[200px] max-w-[250px] rounded-md overflow-hidden shadow-xl">
       <Handle
@@ -29,6 +29,7 @@ const MessageNode = ({ data }) => {
       </div>
       <Handle
         type="source"
+        id={id}
         position={Position.Right}
         style={{ background: "#4a4a4a" }}
       />
