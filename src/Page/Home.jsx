@@ -5,8 +5,9 @@ import ReactflowContainer from "../Components/ReactflowContainer/ReactflowContai
 const Home = () => {
   return (
     <div className="flex flex-col h-screen">
-      {/* navbar */}
+      {/* navbar component */}
       <Navbar />
+      {/* reactflow component */}
       <ReactflowContainer />
     </div>
   );

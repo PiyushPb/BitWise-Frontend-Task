@@ -2,9 +2,11 @@ import React, { useContext } from "react";
 import { NodeContext } from "../Context/NodeContext";
 
 const Navbar = () => {
+  // NodeContext context api
   const { flowHaveChanges, toggleBtnClick, flowHaveErrors, setToggleBtnClick } =
     useContext(NodeContext);
 
+  // handle save button click to save data in the local storage
   const handleSaveBtnClick = () => {
     setToggleBtnClick(!toggleBtnClick);
   };

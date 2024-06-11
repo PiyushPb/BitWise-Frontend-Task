@@ -3,6 +3,7 @@ import Home from "./Page/Home";
 import "./App.css";
 
 const App = () => {
+  // home page
   return <Home />;
 };
 
