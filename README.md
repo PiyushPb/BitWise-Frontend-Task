@@ -138,6 +138,6 @@ Future Improvements
 - Add more validation checks for node connections.
 
 # Contact details 
-Portfolio : http://piyushis.online/
-Resume : https://piyushis.online/resume
-Linked In : https://www.linkedin.com/in/piyushpardeshi/
+- Portfolio : http://piyushis.online/
+- Resume : https://piyushis.online/resume
+- Linked In : https://www.linkedin.com/in/piyushpardeshi/
