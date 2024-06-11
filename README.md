@@ -8,6 +8,7 @@ Find the project @ : [https://thriving-boba-ea4c2d.netlify.app/](https://thrivin
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Components](#components)
 
@@ -65,6 +66,12 @@ To get started with the project, follow these steps:
    ``` bash
    npm run dev
    ```
+
+## Screenshots
+![Home page ](https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/c8b7bf75-b8c3-472d-b9f4-7b44b4984013)
+![Message change](https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/b662a704-862a-493b-8a67-5ebf632979bb)
+![unconnected nodes and edges errors](https://github.com/PiyushPb/BitWise-Frontend-Task/assets/82027371/b810a809-bcd2-4caa-9207-eae7213a88db)
+
 
 ## Usage
 - Open the application in your browser (usually at http://localhost:3000).
